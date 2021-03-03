@@ -1,0 +1,15 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" >
+
+    <item
+        android:id="@+id/oneDay"
+        android:title="1 Day Data"/>
+    <item
+        android:id="@+id/sevenDay"
+        android:title="7 Days Data"/>
+    <item
+        android:id="@+id/thirtyDay"
+        android:title="30 Days Data"/>
+
+</menu>

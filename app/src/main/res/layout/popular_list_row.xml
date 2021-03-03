@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/dp_16">
+
+    <ImageView
+        android:id="@+id/articleImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/ic_baseline_assignment_24"/>
+
+    <TextView
+        android:id="@+id/articleTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/dp_4"
+        android:layout_toEndOf="@id/articleImage"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:typeface="serif"
+        tools:text="His Lights Stayed on During Texas’ Storm. Now He Owes $16,752.abstract After a public outcry from people like Scott Willoughby, whose exorbitant electric bill is soon due, Gov. Greg Abbott said lawmakers should ensure Texans “do not get stuck with skyrocketing energy bills” caused by the storm." />
+
+    <TextView
+        android:id="@+id/authorName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/articleTitle"
+        android:layout_marginTop="@dimen/dp_4"
+        android:maxLines="2"
+        android:layout_alignStart="@id/articleTitle"
+        android:textAllCaps="true"
+        android:typeface="monospace"
+        android:textColor="@android:color/black"
+        tools:text="by dadadadda jkkjskjjkd sdkjkhsjkskj" />
+
+    <TextView
+        android:id="@+id/articleDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/authorName"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="@dimen/dp_4"
+        android:layout_marginEnd="@dimen/dp_4"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:typeface="sans"
+        tools:text="2017-08-09" />
+</RelativeLayout>
+
+
