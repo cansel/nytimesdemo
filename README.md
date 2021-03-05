@@ -5,7 +5,7 @@ For network connection: retrfot lib is used.
 For DI: Dagger2 is used.
 Coroutine concurrency design pattern is also used.
 
-For Unit Testing : Mockk Lib is used.
+For Unit Testing : Mockk Lib is used, Mockk repository, dagger2, retrofit lib etc.
 
 How to Run :
 Import the code to Andorid studio.
